@@ -7,7 +7,10 @@
 </head>
 <body>
     <?php 
-
+       
+         for($tabuada = 8; $tabuada <= 10; $tabuada++){
+            echo "A tabuada $tabuada X " . ($tabuada * $tabuada) . "<br>";
+         }
     
     
     ?>
