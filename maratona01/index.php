@@ -30,11 +30,12 @@
          echo "O valor do $valorEmprestimo mais $taxaJuros divido por $numParcelas"; 
          echo "<br> <br>";
 
-          $valorReal = 25;
+          $valorReal = 100.00;
           $valorDolar = 5.32;
           $valorConvertido= ($valorReal / $valorDolar);
-
-          echo(round(5.32) . "<br>");
+        
+          echo "R$ {$valorReais} equivale a US$ " . round($valorDolares, 2);
+          //echo(round(5.32) . "<br>");
 
     
     ?>
